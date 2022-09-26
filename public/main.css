@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    /* border: 1px solid black; */
+    padding: 0;
+}
+
+body > h2{
+    text-align: center;
+    padding: 20px;
+    line-height: 2rem;
+    color: rgb(62, 77, 179);
+    background-color: rgb(194, 87, 87);
+}
+
+.main-ctr {
+    padding: 50px 0;
+    width: 80vw;
+    max-width: 1000px;
+    margin: auto;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-item{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#text-input-item{
+    border: 1px solid rgb(197, 195, 195);
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.submit-btn{
+    height: 30px;
+    padding:0 10px;
+    /* width: 60px; */
+    margin-left:20px ;
+    border-radius: 5px;
+    background-color: rgb(128, 166, 238);
+    color:white;
+    border: none;
+}
+.submit-btn:active{
+    transform: scale(1.1,1.1);
+    background-color: cornflowerblue;
+    color:orange;
+}
+
+.list-item-ctr{
+    padding-top: 25px;
+    width: 90%;
+    margin: auto;
+    color:rgb(119, 117, 117);
+}
+
+.list-item-ctr  p{
+    padding: 15px 2px;
+
+}
+#delete-btn{
+    margin: 20px  0;
+    display: none;
+}
+
+.fileupload {
+    padding: 10px;
+}
+
+.fileupload input{
+    color: orange;
+}
+
+.fileupload button {
+    scale: 0.9;
+}
+
+.progress-bar {
+    /* border: 1px solid black; */
+    font-size: 1rem;
+    width: 60%;
+    margin: auto;
+    padding: 5px;
+}
+
+#p-bar{
+    width: 100%;
+}

@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Azure test app</title>
+</head>
+
+<body>
+    <h2>Azure test app (nodejs)</h2>
+
+    <div class="main-ctr">
+
+        <form id="image-form">
+            <div class="fileupload">
+                <input type="file" id="input-fileup">
+                <button type="submit"class="submit-btn" onclick="uploadBtnHandler()">Upload</button>
+                <div class="progress-bar">
+                    <label for="p-bar"></label>
+                    <progress id="p-bar" value="0" max="100"></progress>
+                </div>
+            </div>
+        </form>
+
+        <div class="text-item">
+            <input type="text" name="text-item" id="text-input-item" placeholder="Enter some text...">
+            <button type="button" class="submit-btn" onclick="sendBtnHandler()">SEND</button>
+        </div>
+        
+    
+        <div class="list-item-ctr">
+            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aperiam similique consectetur ducimus iusto sit cumque aspernatur ipsam nesciunt, veniam omnis, aliquam at ad non praesentium magnam explicabo blanditiis debitis.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aperiam similique consectetur ducimus iusto sit cumque aspernatur ipsam nesciunt, veniam omnis, aliquam at ad non praesentium magnam explicabo blanditiis debitis.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aperiam similique consectetur ducimus iusto sit cumque aspernatur ipsam nesciunt, veniam omnis, aliquam at ad non praesentium magnam explicabo blanditiis debitis.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aperiam similique consectetur ducimus iusto sit cumque aspernatur ipsam nesciunt, veniam omnis, aliquam at ad non praesentium magnam explicabo blanditiis debitis.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aperiam similique consectetur ducimus iusto sit cumque aspernatur ipsam nesciunt, veniam omnis, aliquam at ad non praesentium magnam explicabo blanditiis debitis.</p>
+         -->
+        </div>
+        <button type="button" class="submit-btn" id="delete-btn" onclick="deleteAllBtnHandler()">DELETE ALL</button>
+    </div>
+
+
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
